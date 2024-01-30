@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.center {
+  width: 15%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 50px;
+  background: #fff;
+  border: solid #E3E3E3 1px;
+  border-radius: 20px;
+  color:#000;
+}
+.center h1 {
+  font-size: 1.5em;
+  border-left: 5px solid dodgerblue;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  color: #000;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.center .inputbox {
+  position: relative;
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+  height: 20px;
+  margin-bottom: 50px;
+}
+.center .inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+.center .inputbox:last-child {
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.center .inputbox span {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+
+  top: 14px;
+  left: 20px;
+  font-size: 0.9em;
+  transition: 0.5s;
+  font-family: sans-serif;
+}
+.center .inputbox input:focus ~ span,
+.center .inputbox input:valid ~ span {
+  font-family: 'Montserrat', sans-serif;
+
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 0.9em;
+}
+button:hover{
+  font-family: 'Montserrat', sans-serif;
+
+  border-color:#000000;
+  background-color: #b52323;
+}

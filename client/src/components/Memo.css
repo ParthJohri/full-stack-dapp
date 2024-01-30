@@ -1,0 +1,26 @@
+
+.container-fluid {
+    margin-left: 120px;
+    display: flex;
+    justify-content: center; 
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 10px; 
+    border-radius: 10px; 
+}
+
+table tbody tr td.p1 {
+    background-color: rgb(64, 30, 255);
+    border: 1px solid black;
+    padding: 7px;
+    width: 200px; 
+    color: white;
+    text-align: center; 
+}
+
+table th, table td {
+    text-align: center;
+    font-weight: bold;
+}
