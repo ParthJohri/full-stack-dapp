@@ -39,7 +39,7 @@ function App() {
       setState({provider,signer,contract});
     }
     catch(error){
-      alert(error)
+      // console.log(error)
     }
   }
     template()
