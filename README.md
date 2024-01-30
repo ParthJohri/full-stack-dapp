@@ -1,4 +1,4 @@
-# Simple DApp using Solidity, React, Hardhat, and Sepolia Testnet 🚀
+# Full-Stack-Dapp 🚀
 
 This repository contains a basic decentralized application (DApp) that demonstrates the integration of Solidity, React, Hardhat, and the Sepolia testnet. The DApp allows users to interact with a simple smart contract deployed on the Sepolia testnet.
 
